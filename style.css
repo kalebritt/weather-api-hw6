@@ -17,6 +17,7 @@
   background-color: darkslategray;
 }
 
+/* stying to .weather-dashboard */
 .weather-dashboard {
   text-align: center;
   background-image: linear-gradient(to left, darkblue, lightblue);

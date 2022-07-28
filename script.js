@@ -7,6 +7,7 @@ var weatherApi =
 
 var apiKey = "8d711c11700284f25c465cc9cf75be69";
 var form = document.getElementById("search-bar");
+//action when 'submitted'
 form.addEventListener("submit", function (event) {
   event.preventDefault();
   getCoordinates(event.target.children[0].value);
@@ -40,6 +41,7 @@ function fetchForecast(lat, lon) {
   )
     .then((response) => response.json())
     .then((data) => {
+      //for loop to change where to begin in array and where to jump in array
       for (let i = 6; i < data.list.length; i += 8) {
         console.log(data.list[i]);
       }
