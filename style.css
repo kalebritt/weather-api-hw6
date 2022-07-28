@@ -6,6 +6,8 @@
   cursor: pointer; /* Pointer/hand icon */
   width: 25%; /* Set a width if needed */
   display: block; /* Make the buttons appear below each other */
+  margin: 10px; /*add space between buttons*/
+  border-radius: 12px; /*add rounded corners to buttons*/
 }
 
 .btn-group button:not(:last-child) {
