@@ -16,3 +16,11 @@
 .btn-group button:hover {
   background-color: darkslategray;
 }
+
+.weather-dashboard {
+  text-align: center;
+  background-image: linear-gradient(to left, darkblue, lightblue);
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+}
