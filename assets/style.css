@@ -47,3 +47,9 @@
   position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.forecast-panel {
+  position: relative;
+  left: 20%;
+  bottom: 200px;
+}
