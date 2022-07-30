@@ -50,6 +50,12 @@
 
 .forecast-panel {
   position: relative;
-  left: 20%;
-  bottom: 200px;
+  right: 5%;
+  /* bottom: 200px; */
+}
+
+.results-panel {
+  position: relative;
+  left: 25%;
+  bottom: 350px;
 }
