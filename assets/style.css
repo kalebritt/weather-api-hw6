@@ -1,4 +1,4 @@
-.btn-group button {
+/* .btn-group button {
   background-color: gray; /* Green background */
   border: 1px solid gray; /* Green border */
   color: black; /* White text */
@@ -7,7 +7,7 @@
   display: block; /* Make the buttons appear below each other */
   margin: 2px; /*add space between buttons*/
   border-radius: 12px; /*add rounded corners to buttons*/
-}
+} */
 
 .btn-group button:not(:last-child) {
   border-bottom: none; /* Prevent double borders */
@@ -44,18 +44,23 @@
 }
 
 .search-form {
-  position: absolute;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkslategray;
 }
 
 .forecast-panel {
   position: relative;
-  /* left: 20%;
-  bottom: 250px; */
+  left: 20%;
 }
 
-.results-panel {
+.current-conditions-panel {
   position: relative;
-  bottom: 250px;
-  left: 20%;
+  /* bottom: 250px; */
+  left: 27%;
+  border: 2px solid black;
+  width: 70%;
+}
+
+.card {
+  background-color: darkslategray;
 }
