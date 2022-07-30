@@ -4,9 +4,8 @@
   color: black; /* White text */
   padding: 10px 12px; /* Some padding */
   cursor: pointer; /* Pointer/hand icon */
-  width: 25%; /* Set a width if needed */
   display: block; /* Make the buttons appear below each other */
-  margin: 10px; /*add space between buttons*/
+  margin: 2px; /*add space between buttons*/
   border-radius: 12px; /*add rounded corners to buttons*/
 }
 
@@ -26,4 +25,24 @@
   padding: 5px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: aliceblue;
+}
+
+.btn-group {
+  flex-direction: column;
+  width: 25%;
+  top: 65px;
+}
+
+/* styling to search button */
+.search-button {
+  background-color: skyblue;
+  border-radius: 12px; /*add rounded corners to buttons*/
+  border: 0px;
+  width: 70%;
+  position: relative;
+  top: 5px;
+}
+
+.search-form {
+  position: absolute;
 }
