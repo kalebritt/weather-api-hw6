@@ -30,7 +30,7 @@
 .btn-group {
   flex-direction: column;
   width: 25%;
-  top: 65px;
+  top: 75px;
 }
 
 /* styling to search button */
@@ -38,7 +38,7 @@
   background-color: skyblue;
   border-radius: 12px; /*add rounded corners to buttons*/
   border: 0px;
-  width: 70%;
+  width: 85%;
   position: relative;
   top: 5px;
 }
