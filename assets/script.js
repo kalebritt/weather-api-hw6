@@ -7,6 +7,16 @@ var weatherApi =
 
 var apiKey = "8d711c11700284f25c465cc9cf75be69";
 var form = document.getElementById("search-bar");
+//action when individual buttons in btn-group is pressed
+// var atlantaCity = document.getElementById("atlanta");
+
+// atlantaCity.addEventListener("click", function (event) {
+//   event.getCoordinates(cityName);
+//   fetch(
+//     `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${apiKey}`
+//   );
+// });
+
 //action when 'submitted'
 form.addEventListener("submit", function (event) {
   event.preventDefault();

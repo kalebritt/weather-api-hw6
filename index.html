@@ -22,22 +22,41 @@
       </form>
       <hr>
       <div class="btn-group col-2">
-        <button id="atlanta">Atlanta</button>
-        <button id="denver">Denver</button>
-        <button id="new-york">New York</button>
-        <button id="lA">Los Angeles</button>
-        <button id="chicago">Chicago</button>
-        <button id="seattle">Seattle</button>
-        <button id="seattle">Holyoke</button>
-        <button id="seattle">Hesperus</button>
-        <button id="seattle">Pine</button>
+        <button class="atlanta">Atlanta</button>
+        <button class="denver">Denver</button>
+        <button class="new-york">New York</button>
+        <button class="lA">Los Angeles</button>
+        <button class="chicago">Chicago</button>
+        <button class="seattle">Seattle</button>
+        <button class="seattle">Holyoke</button>
+        <button class="seattle">Hesperus</button>
+        <button class="seattle">Pine</button>
 
       </div>
       
     </div>
 
       <!-- create empty divs to manipulate in js -->
-      
+      <section class="results-panel">
+        <div class="current-conditions-panel">
+            <div class="name-block">
+                <h3 id="city-name"></h3>
+                <img src="" alt="" id="currentIcon">
+            </div>
+            <div>
+                <p class="current-info" id="temperature"></p>
+            </div>
+            <div>
+                <p class="current-info" id="humidity"></p>
+            </div>
+            <div>
+                <p class="current-info" id="wind-speed"></p>
+            </div>
+            <div class="uv-index-block">
+                <p>UV Index: </p>
+                <p class="rounded current-info" id="uv-index"></p>
+            </div>
+        </div>
 
       <div class="forecast-panel">
         <h4>5-Day Forecast:</h4>
