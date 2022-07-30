@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="/assets/style.css" />
 
 
     <title>What's the Weather?</title>
@@ -16,12 +16,12 @@
   <body>
     <div class="container">
       <!-- create form for search bar -->
-      <form id="search-bar" class="search-form col-3">Search for city:
+      <form id="search-bar" class="search-form col-2">Search for city:
         <input type="text" placeholder="Enter city name" required />
         <button type="submit" class="search-button">Search City</button>
       </form>
       <hr>
-      <div class="btn-group col">
+      <div class="btn-group col-2">
         <button id="atlanta">Atlanta</button>
         <button id="denver">Denver</button>
         <button id="new-york">New York</button>
@@ -38,9 +38,9 @@
 
       <!-- create empty divs to manipulate in js -->
       
-      <div></div>
+      <div class="col-3"></div>
       <div></div>
     </div>
-    <script src="script.js"></script>
+    <script src="/assets/script.js"></script>
   </body>
 </html>
