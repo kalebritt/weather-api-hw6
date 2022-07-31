@@ -45,6 +45,11 @@ function fetchForecast(lat, lon) {
       //for loop to change where to begin in array and where to jump in array
       for (let i = 6; i < data.list.length; i += 8) {
         console.log(data.list[i]);
-      }
+      //   var el = getElementById("#city-list");
+      //   el.text = data.list[i];
+      //   el.value = data.list[i];
+
+      //   select.add(el);
+      // }
     });
 }
