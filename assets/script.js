@@ -67,9 +67,10 @@ function renderCurrentWeather(data, name) {
     <img src="http://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png"/>
   </div>
   <div>
-    <p>Humidity</p>
-    <p>Temperature</p>
-    <p>Wind</p>
+  <p>Temperature: ${data.current.temp}</p>
+    <p>Humidity: ${data.current.humidity}</p>
+    <p>Wind: ${data.current.wind_speed}</p>
+    <p>UV Index: ${data.current.uvi}</p>
   </div>
   
   `;
