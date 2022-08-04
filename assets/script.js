@@ -89,10 +89,12 @@ function renderForecast(data) {
       })}</h5>
     </div>
     <div class="card-body">
-        <img src="${element.}" alt="">
+    <img src="http://openweathermap.org/img/wn/${
+      element.weather[0].icon
+    }@2x.png"/>
         <p class="card-text">Temperature: ${element.temp.day}</p>
         <p class="card-text">Wind Speed: ${element.wind_speed}</p>
-        <p class="card-text">Humidity:</p>
+        <p class="card-text">Humidity: ${element.humidity}</p>
         <p class="card-text">UV Index: ${element.uvi}</p>
     </div>
     `;
