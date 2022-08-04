@@ -89,9 +89,11 @@ function renderForecast(data) {
       })}</h5>
     </div>
     <div class="card-body">
-        <img src="" alt="">
+        <img src="${element.}" alt="">
         <p class="card-text">Temperature: ${element.temp.day}</p>
-        <p class="card-text"></p>
+        <p class="card-text">Wind Speed: ${element.wind_speed}</p>
+        <p class="card-text">Humidity:</p>
+        <p class="card-text">UV Index: ${element.uvi}</p>
     </div>
     `;
     forecastWeatherEl.append(card);
