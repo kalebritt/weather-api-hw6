@@ -19,7 +19,7 @@ form.addEventListener("submit", function (event) {
 //create functions for 'fetch'
 function getCoordinates(cityName) {
   fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${apiKey}`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=1&appid=${apiKey}`
   )
     .then((response) => response.json())
     .then((data) => {
@@ -64,7 +64,7 @@ function renderCurrentWeather(data, name) {
   currentWeatherEl.innerHTML = `
   <div>
     <h2>${name}</h2>
-    <img src="http://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png"/>
+    <img src="https://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png"/>
   </div>
   <div>
   <p>Temperature: ${data.current.temp}</p>
@@ -90,7 +90,7 @@ function renderForecast(data) {
       })}</h5>
     </div>
     <div class="card-body">
-    <img src="http://openweathermap.org/img/wn/${
+    <img src="https://openweathermap.org/img/wn/${
       element.weather[0].icon
     }@2x.png"/>
         <p class="card-text">Temperature: ${element.temp.day}</p>
@@ -102,4 +102,4 @@ function renderForecast(data) {
     forecastWeatherEl.append(card);
   }
 }
-localStorage.setItem(JSON.stringify(data));
+// localStorage.setItem(JSON.stringify(data));
