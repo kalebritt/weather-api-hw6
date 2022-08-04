@@ -102,3 +102,4 @@ function renderForecast(data) {
     forecastWeatherEl.append(card);
   }
 }
+localStorage.setItem(JSON.stringify(data));
