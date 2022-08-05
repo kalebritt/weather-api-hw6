@@ -1,5 +1,7 @@
 # 06 Server-Side APIs: Weather Dashboard
 
+[What's the Weather in...?](https://kalebritt.github.io/)weather-api-hw6/
+
 Description
 Using dynamic Javascript, I have built this app which enables the user to check the weather for any city of their choice. The app displays the current weather as well as a 5-day forecase. Weather features are temperature, wind speed, humidity, and UV index. An icon is also displayed indicating if weather is cloudy, clear, etc.
 
@@ -10,9 +12,9 @@ Credits
 License
 Installation
 Usage
-The screenshot is of the app after a game has been played and the score saved of player 'cl'omp.'
+Below is a screenshot of the app locating the weather of Denver, CO>
 
-image.png
+![alt text](weatherapi.png)
 
 Credits
 I'd like to thank the wise and knowledgeable Jude C. for her tremendous support, advice, and assistance. Simply impossible without her.
