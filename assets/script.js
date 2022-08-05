@@ -27,7 +27,7 @@ function getCoordinates(cityName) {
       console.log(data[0].lat);
       console.log(data[0].lon);
       fetchCurrentWeather(data[0].lat, data[0].lon, data[0].name);
-      fetchForecast(data[0].lat, data[0].lon);
+      // fetchForecast(data[0].lat, data[0].lon);
     });
 }
 function fetchCurrentWeather(lat, lon, name) {
@@ -102,4 +102,5 @@ function renderForecast(data) {
     forecastWeatherEl.append(card);
   }
 }
-// localStorage.setItem(JSON.stringify(data));
+// localStorage.setItem(JSON.stringify(renderForecast, renderForecast));
+// localStorage.getItem(JSON.stringify(renderForecast, renderForecast));
