@@ -1,20 +1,39 @@
-# 06 Server-Side APIs: Weather Dashboard
+# What's the Weather?
 
-[What's the Weather in...?](https://kalebritt.github.io/)weather-api-hw6/
+## Description
 
-Description
-Using dynamic Javascript, I have built this app which enables the user to check the weather for any city of their choice. The app displays the current weather as well as a 5-day forecase. Weather features are temperature, wind speed, humidity, and UV index. An icon is also displayed indicating if weather is cloudy, clear, etc.
+With this handy app a user can check the weather in any city in the country of the US of A.  Icons will appear according to the stated weather, as well as a forecast for the coming days.  Easy peezey!
 
-Table of Contents
-Installation
-Usage
-Credits
-License
-Installation
-Usage
-Below is a screenshot of the app locating the weather of Denver, CO>
+[See the app!](https://kalebritt.github.io/weather-api-hw6/)
 
-![alt text](./assets/images/weatherapi.png)
+## Table of Contents
 
-Credits
-I'd like to thank the wise and knowledgeable Jude C. for her tremendous support, advice, and assistance. Simply impossible without her.
+- [What's the Weather?](#whats-the-weather)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+- [Usage](#usage)
+- [Screenshot](#screenshot)
+- [Credits](#credits)
+- [License](#license)
+- [Installation](#installation)
+
+# Usage
+
+This Command-Line Interface (CLI) utilizes an Application Programming Interface (API) using Express.js and MYSQL database using Sequalize.
+
+# Screenshot
+
+Below is a screenshot of the deployed app.
+
+![screenshot of app deployed](./assets/screenshots/Screenshot-employee-tracker.png)
+
+# Credits
+
+Tremendous credit to Jude C. and her infinite knowledge and experience she was generous enough to share with me.
+
+# License
+
+# Installation
+
+'npm i' is a good place to start!
+
