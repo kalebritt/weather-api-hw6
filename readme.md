@@ -11,16 +11,11 @@ With this handy app a user can check the weather in any city in the country of t
 - [What's the Weather?](#whats-the-weather)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
-- [Usage](#usage)
 - [Screenshot](#screenshot)
 - [Technologies](#technologies)
 - [Credits](#credits)
 - [License](#license)
 - [Installation](#installation)
-
-# Usage
-
-This Command-Line Interface (CLI) utilizes an Application Programming Interface (API) using Express.js and MYSQL database using Sequalize.
 
 # Screenshot
 
@@ -32,7 +27,6 @@ Below is a screenshot of the deployed app.
 -HTML <br>
 -JavaScript <br>
 -Bootstrap
-
 
 # Credits
 
