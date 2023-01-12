@@ -15,7 +15,6 @@ With this handy app a user can check the weather in any city in the country of t
 - [Technologies](#technologies)
 - [Credits](#credits)
 - [License](#license)
-- [Installation](#installation)
 
 # Screenshot
 
@@ -34,8 +33,4 @@ Tremendous credit to Jude C. and her infinite knowledge and experience she was g
 
 # License
 
-
-# Installation
-
-'npm i' is a good place to start!
 
