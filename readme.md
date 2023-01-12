@@ -14,7 +14,6 @@ With this handy app a user can check the weather in any city in the country of t
 - [Usage](#usage)
 - [Screenshot](#screenshot)
 - [Technologies](#technologies)
-  - [-Bootstrap](#-bootstrap)
 - [Credits](#credits)
 - [License](#license)
 - [Installation](#installation)
@@ -33,7 +32,7 @@ Below is a screenshot of the deployed app.
 -HTML <br>
 -JavaScript <br>
 -Bootstrap
--
+
 
 # Credits
 
