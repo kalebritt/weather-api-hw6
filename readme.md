@@ -25,7 +25,7 @@ This Command-Line Interface (CLI) utilizes an Application Programming Interface 
 
 Below is a screenshot of the deployed app.
 
-![screenshot of app deployed](./assets/screenshots/Screenshot-employee-tracker.png)
+![screenshot of app deployed](./assets/images/weatherapi.png)
 
 # Credits
 
