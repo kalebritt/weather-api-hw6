@@ -13,6 +13,8 @@ With this handy app a user can check the weather in any city in the country of t
   - [Table of Contents](#table-of-contents)
 - [Usage](#usage)
 - [Screenshot](#screenshot)
+- [Technologies](#technologies)
+  - [-Bootstrap](#-bootstrap)
 - [Credits](#credits)
 - [License](#license)
 - [Installation](#installation)
@@ -27,11 +29,18 @@ Below is a screenshot of the deployed app.
 
 ![screenshot of app deployed](./assets/images/weatherapi.png)
 
+# Technologies
+-HTML
+-JavaScript
+-Bootstrap
+-
+
 # Credits
 
 Tremendous credit to Jude C. and her infinite knowledge and experience she was generous enough to share with me.
 
 # License
+
 
 # Installation
 
