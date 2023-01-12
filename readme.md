@@ -30,8 +30,8 @@ Below is a screenshot of the deployed app.
 ![screenshot of app deployed](./assets/images/weatherapi.png)
 
 # Technologies
--HTML
--JavaScript
+-HTML <br>
+-JavaScript <br>
 -Bootstrap
 -
 
